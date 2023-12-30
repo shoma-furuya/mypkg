@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.009109] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.009509] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099940] (-) TimerEvent: {}
+[0.201629] (-) TimerEvent: {}
+[0.302206] (-) TimerEvent: {}
+[0.406821] (-) TimerEvent: {}
+[0.508045] (-) TimerEvent: {}
+[0.608479] (-) TimerEvent: {}
+[0.708862] (-) TimerEvent: {}
+[0.773182] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--record', '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/tom1513/ros2_ws/src/mypkg', 'env': {'USER': 'tom1513', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tom1513/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/tom1513', 'OLDPWD': '/home/tom1513/ros2_ws/src/mypkg/test', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tom1513/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'tom1513', 'NAME': 'shoumapc', 'WSL_INTEROP': '/run/WSL/30118_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/shoum/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shoum/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF8', 'AMENT_PREFIX_PATH': '/home/tom1513/ros2_ws/install/person_msgs:/home/tom1513/ros2_ws/install/mypkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'PWD': '/home/tom1513/ros2_ws/src/mypkg/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:/home/tom1513/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/tom1513/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/tom1513/ros2_ws/install/person_msgs', 'WSLENV': ''}, 'shell': False}
+[0.809123] (-) TimerEvent: {}
+[0.909688] (-) TimerEvent: {}
+[0.944688] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.945821] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.946040] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.946130] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.946210] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.946288] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.975493] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.976163] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.976403] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.976629] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.976946] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.977828] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.979134] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.979459] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.980925] (mypkg) StdoutLine: {'line': b"removing '/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.981219] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[0.981733] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.996090] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[0.996709] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[0.997630] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[1.009905] (-) TimerEvent: {}
+[1.017400] (mypkg) CommandEnded: {'returncode': 0}
+[1.108539] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.109740] (-) EventReactorShutdown: {}
