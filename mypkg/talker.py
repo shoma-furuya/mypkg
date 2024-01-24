@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Shoma Furuya
+# SPDX-FileCopyrightText: 2024 Shoma Furuya
 # SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
@@ -10,7 +10,8 @@ class Talker():
         self.n = 0
         node.create_timer(0.5, self.cb)
 
-def cb():
+def cb(self):
+    global n
     msg = Int16()
     msg.data = self.n
     self.pub.publish(msg)

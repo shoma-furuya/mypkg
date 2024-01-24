@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Shoma Furuya
+# SPDX-FileCopyrightText: 2024 Shoma Furuya
 # SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
@@ -10,5 +10,5 @@ def cb(msg):
 
 rclpy.init()
 node = Node("listener")
-pub = node.create_subscription(Int16, "countup", cb, 10)
+sub = node.create_subscription(Int16, "countup", cb, 10)
 rclpy.spin(node)
