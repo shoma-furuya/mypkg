@@ -18,20 +18,15 @@ copying mypkg/listener.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/l
 copying mypkg/__init__.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
 running install
 running install_lib
-creating /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
 copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
 copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
-copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
 byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
 byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
-byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
 running install_data
-creating /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/ament_index
-creating /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
-creating /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
-copying resource/mypkg -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
 copying package.xml -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+copying launch/talk_listen.launch.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/mypkg
 running install_egg_info
+removing '/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
 Copying build/mypkg/mypkg.egg-info to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
 running install_scripts
 Installing listener script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg

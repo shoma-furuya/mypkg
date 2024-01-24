@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000184] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099640] (-) TimerEvent: {}
+[0.200445] (-) TimerEvent: {}
+[0.300785] (-) TimerEvent: {}
+[0.401058] (-) TimerEvent: {}
+[0.449698] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--record', '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/tom1513/ros2_ws/src/mypkg', 'env': {'USER': 'tom1513', 'SHLVL': '1', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/tom1513', 'OLDPWD': '/home/tom1513/ros2_ws/src', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'tom1513', 'NAME': 'shoumapc', 'WSL_INTEROP': '/run/WSL/8_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/shoum/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shoum/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF8', 'SHELL': '/bin/bash', 'PWD': '/home/tom1513/ros2_ws/src/mypkg/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'PYTHONPATH': '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:'}, 'shell': False}
+[0.501515] (-) TimerEvent: {}
+[0.548689] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.549107] (mypkg) StdoutLine: {'line': b'creating build/mypkg/mypkg.egg-info\n'}
+[0.549347] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.549423] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.549465] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.549503] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.549540] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.554807] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.574966] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.575374] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.575464] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.575551] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.575636] (mypkg) StdoutLine: {'line': b'creating /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build\n'}
+[0.575855] (mypkg) StdoutLine: {'line': b'creating /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib\n'}
+[0.575984] (mypkg) StdoutLine: {'line': b'creating /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.576080] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.576296] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.576353] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.576393] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.576883] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.577494] (mypkg) StdoutLine: {'line': b'copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.577593] (mypkg) StdoutLine: {'line': b'copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.577937] (mypkg) StdoutLine: {'line': b'byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc\n'}
+[0.578836] (mypkg) StdoutLine: {'line': b'byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc\n'}
+[0.579120] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.579345] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[0.579595] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[0.579661] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.580768] (mypkg) StdoutLine: {'line': b"removing '/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.580872] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[0.581362] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.590804] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[0.590935] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[0.590983] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[0.602058] (-) TimerEvent: {}
+[0.603877] (mypkg) CommandEnded: {'returncode': 0}
+[0.657103] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.657808] (-) EventReactorShutdown: {}

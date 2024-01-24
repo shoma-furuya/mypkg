@@ -1,0 +1,36 @@
+[0.452s] Invoking command in '/home/tom1513/ros2_ws/src/mypkg': PYTHONPATH=/home/tom1513/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build install --record /home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.549s] running egg_info
+[0.549s] creating build/mypkg/mypkg.egg-info
+[0.549s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.549s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.549s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.549s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.549s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.555s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.575s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.575s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.575s] running build
+[0.575s] running build_py
+[0.575s] creating /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build
+[0.576s] creating /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.576s] creating /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.576s] copying mypkg/talker.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.576s] copying mypkg/listener.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.576s] copying mypkg/__init__.py -> /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.576s] running install
+[0.577s] running install_lib
+[0.577s] copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.577s] copying /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.578s] byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[0.579s] byte-compiling /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[0.579s] running install_data
+[0.579s] copying package.xml -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.579s] copying launch/talk_listen.launch.py -> /home/tom1513/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.579s] running install_egg_info
+[0.581s] removing '/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.581s] Copying build/mypkg/mypkg.egg-info to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.581s] running install_scripts
+[0.591s] Installing listener script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.591s] Installing talker script to /home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.591s] writing list of installed files to '/home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.604s] Invoked command in '/home/tom1513/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/tom1513/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/tom1513/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/tom1513/ros2_ws/src/mypkg/build/mypkg/build install --record /home/tom1513/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
